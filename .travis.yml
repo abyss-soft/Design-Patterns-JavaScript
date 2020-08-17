@@ -1,0 +1,30 @@
+language: node_js
+node_js:
+  - 10.16.0
+
+addons:
+  apt:
+    packages:
+      - libgconf-2-4
+
+branches:
+  only:
+    - master
+    - /^greenkeeper.*$/
+
+script:
+  - yarn
+  - yarn build
+  - yarn test
+  - yarn test:coverage
+  - yarn start:ci
+  - yarn cypress:run
+
+after_success:
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+
+deploy:
+  provider: firebase
+  token:
+    secure: $FIREBASE_TOKEN
+  skip_cleanup: true

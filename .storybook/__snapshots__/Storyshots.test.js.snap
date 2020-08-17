@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button default 1`] = `null`;
+
+exports[`Storyshots Percentage between 40 and 70 1`] = `null`;
+
+exports[`Storyshots Percentage over 70 1`] = `null`;
+
+exports[`Storyshots Percentage under 40 1`] = `null`;
+
+exports[`Storyshots ProgressBar all questions correct 1`] = `null`;
+
+exports[`Storyshots ProgressBar all questions wrong 1`] = `null`;
+
+exports[`Storyshots ProgressBar unanswered questions 1`] = `null`;
+
+exports[`Storyshots Title default 1`] = `null`;
+
+exports[`Storyshots Toggle js 1`] = `null`;
+
+exports[`Storyshots Toggle mode 1`] = `null`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> component renders with a DARK theme 1`] = `
+.c0 {
+  background-color: #484848;
+  border: 1px solid #484848;
+  border-radius: 4px;
+  cursor: pointer;
+  font: 400 1rem 'Karla','sans-serif';
+  height: 48px;
+  max-width: 240px;
+  outline: none;
+  padding: 0 1.5rem;
+  width: 37.5%;
+}
+
+.c0 span {
+  color: #F5F5F5;
+}
+
+.c0:hover {
+  background-color: #888888;
+  border-color: #888888;
+}
+
+.c0:hover span {
+  color: #FFFFFF;
+}
+
+<button
+  className="c0"
+  id="test"
+  onClick={[MockFunction]}
+>
+  <span>
+    Test Button
+  </span>
+</button>
+`;
+
+exports[`<Button /> component renders with a LIGHT theme 1`] = `
+.c0 {
+  background-color: #F2E8F2;
+  border: 1px solid #EDB8ED;
+  border-radius: 4px;
+  cursor: pointer;
+  font: 400 1rem 'Karla','sans-serif';
+  height: 48px;
+  max-width: 240px;
+  outline: none;
+  padding: 0 1.5rem;
+  width: 37.5%;
+}
+
+.c0 span {
+  color: #6F256F;
+}
+
+.c0:hover {
+  background-color: #6F256F;
+  border-color: #6F256F;
+}
+
+.c0:hover span {
+  color: #FFFFFF;
+}
+
+<button
+  className="c0"
+  id="test"
+  onClick={[MockFunction]}
+>
+  <span>
+    Test Button
+  </span>
+</button>
+`;
